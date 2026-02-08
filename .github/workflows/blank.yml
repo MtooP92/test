@@ -2,11 +2,11 @@ name: 'Aws testing'
 
 # The workflow should only trigger on pull requests to the main branch
 on:
-  woekflow_dispatch:
+  workflow_dispatch:
 
 # Requires getting the ID Token that will be used for OIDC
 permissions:
-  id-tocken: write
+  id-token: write
 
 jobs:
   read-dev: 
