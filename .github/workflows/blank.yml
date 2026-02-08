@@ -1,4 +1,4 @@
-name: "test AWS Access"
+name: "AWS testing"
 
 # The workflow should only trigger on pull requests to the main branch
 on:
